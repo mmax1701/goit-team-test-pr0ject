@@ -1,0 +1,37 @@
+.go-top {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  cursor: pointer;
+  display: none;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--main-accent-color);
+  z-index: 1000;
+}
+
+.go-top-icon {
+  width: 54px;
+  height: 54px;
+  fill: var(--main-bg-color);
+}
+
+.go-top-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .go-top {
+    bottom: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .go-top {
+    right: 50px;
+  }
+}

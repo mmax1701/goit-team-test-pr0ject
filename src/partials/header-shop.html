@@ -1,0 +1,78 @@
+<div class="header-container">
+    <div class="logo">
+        <svg id="logo-light" height="29px">
+            <use href="./img/symbol-defs.svg#icon-logo-light"></use>
+        </svg>
+        <svg id="logo-dark" class="visually-hidden" height="29px">
+            <use href="./img/symbol-defs.svg#icon-logo-dark"></use>
+        </svg>
+    </div>
+    <ul class="header-nav">
+        <li class="header-nav-item-home is-active"><a href="./index.html" class="header-home-link">HOME</a></li>
+        <li class="header-nav-item-shopping-list"><a href="./shopping-list.html"
+                class="header-shopping-list-link">SHOPPING LIST
+                <svg id="icon-bag" width="20px" height="20px">
+                    <use href="./img/symbol-defs.svg#icon-bag"></use>
+                </svg>
+                <svg id="icon-bag-black" width="20px" height="20px" class="visually-hidden">
+                    <use href="./img/symbol-defs.svg#icon-bag-black"></use>
+                </svg>
+                <svg id="is-active-icon" width="20px" height="20px" class="visually-hidden">
+                    <use href="./img/symbol-defs.svg#icon-bag-black"></use>
+                </svg>
+            </a></li>
+    </ul>
+    <div class="header-wrap">
+        <div class="theme-switcher">
+        </div>
+        <button class="mob-menu-open" data-menu-open>
+            <svg>
+                <use href="./img/symbol-defs.svg#icon-burger"></use>
+            </svg>
+    </div>
+    </button>
+    <button class="mob-menu-close visually-hidden" data-menu-close>
+        <svg width="28px" height="28px" class="mob-menu-close-icon">
+            <use href="./img/symbol-defs.svg#icon-x-close"></use>
+        </svg></button>
+    <button type="button" class="sign-up-btn">
+        <svg class="user-photo" width="37px" height="37px">
+            <use href="./img/symbol-defs.svg#icon-user"></use>
+        </svg>
+        <img class="user-photo-img" style="display: none;">
+        <span class="username">User</span>
+    </button>
+</div>
+<div class="mob-menu visually-hidden">
+    <div class="mob-menu-wrap">
+        <div class="user-profile">
+            <button class="mob-menu-sign-up-btn">
+                <svg class="user-photo" width="37px" height="37px">
+                    <use href="./img/symbol-defs.svg#icon-user"></use>
+                </svg>
+                <img class="user-photo-img" style="display: none;">
+                <span class="username">User</span></button>
+
+        </div>
+        <ul class="mob-menu-nav">
+            <li class="mob-menu-nav-item-home"><a href="./index.html" class="mob-menu-home-link">HOME</a></li>
+            <li class="mob-menu-nav-item-shopping-list is-active"><a href="../shopping-list.html"
+                    class="mob-menu-shopping-list-link">SHOPPING LIST
+                    <svg id="mob-icon-light" width="20px" height="20px">
+                        <use href="./img/symbol-defs.svg#icon-bag"></use>
+                    </svg>
+                    <svg id="is-active-mob-icon" width="20px" height="20px" class="visually-hidden">
+                        <use href="./img/symbol-defs.svg#icon-bag-black"></use>
+                    </svg> </a></li>
+        </ul>
+    </div>
+    <div class="mob-menu-log-out-wrap">
+        <button type="button" class="mob-menu-log-out-btn">Log Out
+            <svg>
+                <use href="./img/symbol-defs.svg#icon-arrow-narrow-right"></use>
+            </svg>
+        </button>
+    </div>
+    <img src="./img/mob-img/menu@1x.png" srcset="./img/mob-img/menu@1x.png 1x,./img/mob-img/menu@2x.png 2x" alt=""
+        class="mob-menu-img">
+</div>

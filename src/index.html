@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf</title>
+    <link
+      rel="shortcut icon"
+      href="./img/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+
+  <body data-theme="light">
+    <header>
+      <include src="./partials/header.html"></include>
+    </header>
+    <main>
+      <include src="./partials/menu.html"></include>
+      <section class="main-section">
+        <h1 class="main-section-title">Book List</h1>
+        <div class="section-container">
+          <aside class="sidebar">
+            <include src="./partials/categories.html"></include>
+            <include src="./partials/support.html"></include>
+          </aside>
+          <include src="./partials/books.html"></include>
+        </div>
+      </section>
+      <include src="./partials/modal.html"></include>
+      <!-- <include src="./partials/shopping-list.html"></include> -->
+      <include src="./partials/book-card.html"></include>
+      <include src="./partials/button-scroll.html"></include>
+    </main>
+    <footer>
+      <include src="./partials/footer.html"></include>
+    </footer>
+  </body>
+</html>
